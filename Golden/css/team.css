@@ -1,0 +1,65 @@
+.block
+{
+    width: 70%;
+    margin: 0 auto;
+}
+.step1
+{
+    display: inline-block;
+    margin: 5%;
+}
+
+.initials
+{
+    text-align: center;
+}
+.initials_
+{
+    margin-top: -7%;
+    text-align: center;
+}
+.tw
+{
+    width: 20px;
+    height: 19px;
+}
+.fb
+{
+    width: 11px;
+    height: 19px;
+}
+.pin
+{
+    width: 16px;
+    height: 19px;
+}
+
+.icons { line-height: 3; float: left; width: 40px; height: 40px; margin: 4%; list-style-type: none; transition: all .3s ease .15s; text-align: center; border: 3px solid #222; border-radius: 80%; background-color: #f9f9f9;}
+.icons:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    border: 3px solid #fffafa;
+    background: #fffafa;
+}
+.ic
+{
+    width: 78%;
+    margin: 0 auto;
+}
+.ic_s
+{
+    width: 50%;
+    margin: 0 auto;
+}
+.descr
+{
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "Proin iaculis" */
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    color: #777;
+}

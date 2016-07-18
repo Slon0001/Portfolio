@@ -1,0 +1,39 @@
+.text_main {
+	color: #222;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.text {
+color: #777;
+font-family: DroidSerif;
+font-size: 16px;
+font-style: italic;
+}
+
+.text_autor {
+color: #222;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 50px;
+}
+
+.text_job {
+color: #777;
+font-family: RobotoSlab;
+font-size: 14px;
+font-weight: 400;
+}
+
+@font-face {
+	font-family:'DroidSerif ';
+	src:url('fonts/PTSansRegular.eot');
+	src:url('fonts/PTSansRegular.eot?#iefix') format('embedded-opentype').
+		url('fonts/PTSansRegular.woof') format('truetype').
+		url('fonts/PTSansRegular.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+

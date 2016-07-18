@@ -1,0 +1,31 @@
+.title-portfolio{
+	width: 320px;
+	height: 30px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+.sub-title{
+	text-align: center;
+}
+.prtflio{
+	width: 70%;
+	margin: 0 auto;
+}
+.prtflio_item{
+	list-style-type: none;
+	float: left;
+	margin: 2%;
+}
+.prtflio-title,
+.prtflio_sub-title{
+	text-align: center;
+}
+.prtflio_sub-title{
+	margin: -7% 0 7% 0;
+}

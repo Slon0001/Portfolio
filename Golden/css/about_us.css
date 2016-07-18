@@ -1,0 +1,36 @@
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+.about {
+	text-align: right;
+}
+	.about_item {
+		margin-bottom: 10%;
+	}
+	.about_text{
+		width: 37%;
+		float: left;
+	}
+	.about_item:nth-of-type(2n) .about_text{
+		float: right;
+		text-align: left;	
+	}
+	.about_item:nth-of-type(2n) .about_img{
+		float: right;
+	}
+		.about_text h3,
+		.about_text h4{
+		color: #222;
+		font-family: Montserrat;
+		font-size: 1.8em;
+		font-weight: 700;
+		}
+			.about_text h3{
+			text-transform: uppercase;
+			}
+				.about_img {
+					width: 20%;
+					margin:0 3%;
+					float: left;
+				}
