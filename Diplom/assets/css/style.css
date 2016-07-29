@@ -166,9 +166,6 @@ label[for="nav-btn"]:hover:after {
   animation-fill-mode: forwards;
   z-index: 1000 !important;
 }
-#nav-btn:checked + .slick-next {
-  display: none;
-}
 .home__menu {
   text-align: right;
    display: none;
@@ -722,10 +719,10 @@ label[for="nav-btn"] {
     position: absolute;
     left: 0;
     top: 0;
-    animation: slide 8s linear;
-    -webkit-animation: slide 8s;
-    -moz-animation: slide 8s;
-    -o-animation: slide 8s;
+    animation: slide .8s linear;
+    -webkit-animation: slide .8s;
+    -moz-animation: slide .8s;
+    -o-animation: slide .8s;
 }
 .wordpress{width: 80%;}
 .html{width: 90%;}

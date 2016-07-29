@@ -53,11 +53,9 @@
 				<div class="home_search_box">
 					<input type="search" name="search" class="home_search_placeholder" placeholder="search" value="">
 				</div>
-
-				<label for="nav-btn" class="nav-trigger">
-			</label>
-			<input type="checkbox" id="nav-btn">
 <!-- Search row end -->
+			<label for="nav-btn" class="nav-trigger"></label>
+			<input type="checkbox" id="nav-btn">
 <!-- Nav Menu Adaptive -->
 			<nav class="home__menu">
 				<a href="#home" class="home__menu__item">Home</a>
@@ -155,7 +153,6 @@
 						<button class="btn_info_mini">read more</button>
 					</div>
 			</div>
-			
 		</div>
 </div>
 </section>
@@ -234,7 +231,6 @@
 			</div>
 		</div>
 	</div>
-
 <!-- Top Menu Programm Lang -->
 	<div class="cont_menu_under_adv">
 		<div class="menu_under_adv_info">
@@ -391,7 +387,6 @@
 						<p class="text_feature_mini">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 					</div>
 				</div>
-		
 		</div>
 	</div>
 	</div>
@@ -429,7 +424,8 @@
 					<p class="progress-bar-name">wordpress</p>
 					<p class="persents">80%</p>
 					<div class="progress-bar">
-						<span class="progress-bar-item wordpress"></span>
+						<span class=" wow progress-bar-item wordpress" data-wow-delay=".1s" 
+						style="animation-delay: 0.3s; animation-duration: 3s;"></span>
 					</div>
 				</div>
 			</div>
@@ -439,7 +435,8 @@
 					<p class="progress-bar-name">html</p>
 					<p class="persents">90%</p>
 					<div class="progress-bar">
-						<span class="progress-bar-item html"></span>
+						<span class="wow progress-bar-item html" data-wow-delay=".2s" 
+						style="animation-delay: 0.3s; animation-duration: 3s;"></span>
 					</div>
 				</div>
 			</div>
@@ -449,7 +446,8 @@
 					<p class="progress-bar-name">css</p>
 					<p class="persents">85%</p>
 					<div class="progress-bar">
-						<span class="progress-bar-item css"></span>
+						<span class="wow progress-bar-item css" data-wow-delay=".3s" 
+						style="animation-delay: 0.3s; animation-duration: 3s;"></span>
 					</div>
 				</div>
 			</div>
@@ -459,7 +457,8 @@
 					<p class="progress-bar-name">javascript</p>
 					<p class="persents">70%</p>
 					<div class="progress-bar">
-						<span class="progress-bar-item javascript"></span>
+						<span class="wow progress-bar-item javascript" data-wow-delay=".4s"
+						 style="animation-delay: 0.3s; animation-duration: 3s;"></span>
 					</div>
 				</div>
 			</div>
@@ -469,7 +468,8 @@
 					<p class="progress-bar-name">php</p>
 					<p class="persents">75%</p>
 					<div class="progress-bar">
-						<span class="progress-bar-item php"></span>
+						<span class="wow progress-bar-item php" data-wow-delay=".5s" 
+						style="animation-delay: 0.3s; animation-duration: 3s;"></span>
 					</div>
 				</div>
 			</div>
@@ -479,7 +479,8 @@
 					<p class="progress-bar-name">design</p>
 					<p class="persents">90%</p>
 					<div class="progress-bar">
-						<span class="progress-bar-item design"></span>
+						<span class="wow progress-bar-item design" data-wow-delay=".6s" 
+						style="animation-delay: 0.3s; animation-duration: 3s;"></span>
 					</div>
 				</div>
 			</div>
@@ -796,8 +797,8 @@
 </section>
 
 	<script type="text/javascript">
-		$('.slider').slick({slidesToShow: 1, slidesToScroll: 1, autoplay: true,autoplaySpeed: 150,infinite: true,adaptiveHeight: true,});
-		$('.claint_block').slick({  speed: 300,  slidesToShow: 4,  slidesToScroll: 1,  autoplay: true, autoplaySpeed: 1500,  infinite: true,  responsive: [ { breakpoint: 1024, settings: {  slidesToShow: 3,slidesToScroll: 3,infinite: true,  }}, {breakpoint: 600, settings: { slidesToShow: 2, slidesToScroll: 2}},{breakpoint: 480,settings: {slidesToShow: 1,slidesToScroll: 1 }}]});
+		$('.slider').slick({slidesToShow: 1, slidesToScroll: 1, autoplay: true, infinite: true, adaptiveHeight: true,});
+		$('.claint_block').slick({  speed: 300,  slidesToShow: 4,  slidesToScroll: 1,  autoplay: true,  infinite: true,  responsive: [ { breakpoint: 1024, settings: {  slidesToShow: 3,slidesToScroll: 3,infinite: true,  }}, {breakpoint: 600, settings: { slidesToShow: 2, slidesToScroll: 2}},{breakpoint: 480,settings: {slidesToShow: 1,slidesToScroll: 1 }}]});
 	</script>
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
