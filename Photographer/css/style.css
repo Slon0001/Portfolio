@@ -227,14 +227,16 @@ body{
     border-radius: 100%;
     list-style-type: none;
 }
-.play_paralax{
-    width: 15px;
-    height: 26px;
-}
-.icons_correct_paralax{
-    line-height: 2.5;
-    margin-left: 3px;
-    text-align: center;
+.shape{
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid white;
+    border-bottom: 15px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all .9s ease-out;
+    margin-left: 5px;
 }
 .about_client{
     width: 5%;
