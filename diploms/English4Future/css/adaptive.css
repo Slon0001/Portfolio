@@ -1,0 +1,94 @@
+@media screen and (max-width: 1200px) {
+	.title2 div{
+		display: flex;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+	}
+	.title2 img{
+		width: 50%;
+		height: 25%;
+	}
+	.title2 .start:last-child {
+		left: 350px;
+	}
+	.right{
+		top: 85px;
+		left: 260px;
+	}
+	.tasks_item:nth-of-type(2) .right{
+	left: 550px;
+}
+}
+@media screen and (max-width: 1024px){
+	.start{
+		left: 370px;
+	}
+	.title2 .start:last-child{
+		width: 600px;
+		top: 315px;
+		left: 380px;
+	}
+	.right{
+		left: 210px;
+	}
+	.tasks_item:nth-of-type(2) .right {
+		left: 480px;
+	}
+	.contacts img{
+		width: 25%;
+	}
+}
+@media screen and (max-width: 768px){
+	.title2 div{
+		display: none;
+	}
+	.start{
+	    font-size: 100% !important;
+	    position: relative !important;
+	    top: 320px !important;
+	    left: -100px !important;
+	    right: auto !important;
+	    margin: 15px auto !important;
+	    max-width: 480px !important;
+	    width: 140% !important;
+	    height: auto !important;
+	}
+	.adapt{
+		transform: translate(0, 50px);
+	}
+	.form p{
+		font-size: 25px;
+	}
+	.right{
+		display: none;
+	}
+	.container_for_tasks{
+	    transform: translate(0, -35px);
+	}
+	.teacher_img{
+		width: 50%;
+	}
+	.adapt_teach{
+		display: block !important;
+		transform: translate(0, 50px);
+	}
+	.teacher_text{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.contacts img{
+		width: 30%;
+	}
+	.img_form{
+		display: none;
+	}
+}
+@media screen and (max-width: 640px){
+	.start{
+		top: 320px;
+		left: -230px !important;
+	}
+	.contacts img{
+		width: 35%;
+	}
+}

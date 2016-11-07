@@ -1,0 +1,143 @@
+.menu-item {margin: 0 2em; color: #fff; font-family: Montserrat; font-size: 0.8em; font-weight: 600; text-transform: uppercase; transition: all .3s ease-out;}
+.menu-item:hover {
+	cursor: pointer;
+    opacity: 0.9;
+    color: #fed136;
+} 
+.welcome{
+	/* Text style for "Welcome To Our" */
+	color: white;
+	font-family: Droid Serif;
+	font-size: 2.5em;
+	font-style: italic;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+.NTMU{
+	/* Text style for "It’s nice to M" */
+	color: white;
+	font-family: Montserrat;
+	font-size: 4.6em;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto;
+	line-height: 2.5;
+}
+.title-services{
+	color:#222;
+	font-family: Montserrat;
+	font-size:2.5em;
+	font-weight: 700;
+	line-height:1.33em;
+	text-transform: uppercase;
+}
+.sub-title{
+	/* Text style for "Proin iaculis" */
+	color: #777;
+	font-family: Droid Serif;
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 3%;
+}
+.title-cws{
+	/* Text style for "E-Commerce" */
+	color: #222;
+	font-family: Montserrat;
+	font-size: 1.25em;
+	font-weight: 700;
+	line-height: 3em;
+}
+.description{
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 1.15em;
+	font-weight: 400;
+}
+.title-portfolio{
+	color: #222;
+	font-family: Montserrat;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.33em;
+	text-transform: uppercase;
+}
+.prtflio-title{
+    font-family: Montserrat;
+    font-size: 1em;
+    font-weight: 700;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 10%;
+    color: #333;
+}
+.prtflio_sub-title{
+    font-family: DroidSerif;
+    font-size: 1.1em;
+    font-style: italic;
+    line-height: 1.5em;
+    /* Text style for "Product Mock-U" */
+    max-width: 45%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    color: #737373;
+}
+.about_title{
+	color: #222;
+	font-family: Montserrat;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-transform: uppercase;
+}
+.about_text h3,
+.about_text h4{
+	color: #222;
+	font-family: Montserrat;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+.about_text h3{
+	text-transform: uppercase;
+}
+.about_text p{
+	/* Text style for "Proin iaculis" */
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 1.25em;
+	font-weight: 400;
+	margin-top: 5%;
+}
+.title_team{
+	/* Text style for "our amazing te" */
+	color: #222;
+	font-family: Montserrat;
+	font-size: 2.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.descr{
+    /* Text style for "Proin iaculis" */
+    font-family: Roboto Slab;
+    font-size: 1em;
+    font-weight: 400;
+    color: #777;
+}
+.title_footer{
+	/* Text style for "Contact us" */
+	color: white;
+	font-family: Montserrat;
+	font-size: 2.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.text{
+	/* Text style for "© Copyright 20" */
+	max-width: 35%;
+	color: #555;
+	font-family: Montserrat;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+}

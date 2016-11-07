@@ -1,0 +1,24 @@
+@font-face{
+	font-family: Raleway;
+	src: url("..assets/fonts/Ralawey/Raleway-Bold.ttf");
+	src: url("..assets/fonts/Ralawey/Raleway-Bold-Italic.ttf");
+	src: url("..assets/fonts/Ralawey/Raleway-ExtraBold.ttf");
+	src: url("..assets/fonts/Ralawey/Raleway-ExtraBold-Italic.ttf");
+	src: url("..assets/fonts/Ralawey/Raleway-Medium.ttf");
+	src: url("..assets/fonts/Ralawey/Raleway-Medium-Italic.ttf");
+	src: url("..assets/fonts/Ralawey/Raleway-Regular.ttf");
+	src: url("..assets/fonts/Ralawey/Raleway-Regular-Italic.ttf");
+	src: url("..assets/fonts/Ralawey/Raleway-SemiBold.ttf");
+}
+@font-face{
+	font-family: Open Sans;
+	src: url("..assets/fonts/OpenSans/OpenSans-Bold.ttf");
+	src: url("..assets/fonts/OpenSans/OpenSans-Italic.ttf");
+	src: url("..assets/fonts/OpenSans/OpenSans-Regular.ttf");
+	src: url("..assets/fonts/OpenSans/OpenSans-SemiBold.ttf");
+	src: url("..assets/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf");
+}
+@font-face{
+	font-family: Myriad Pro;
+	src: url("..assets/fonts/MyriadPro/MyriadPro-Bold.otf");
+}

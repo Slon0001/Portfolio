@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photographer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/text.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'></head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
+
+	<div class="wrap">
+		<header class="header">
+			<div class="header-top">
+				<img class="logo" src="pic/logo.png" alt="">
+				<nav class="menu_static">
+					<a href="" class="menu-item_static">Home</a>
+					<a href="" class="menu-item_static">About Me</a>
+					<a href="" class="menu-item_static">Albums</a>
+					<a href="" class="menu-item_static">My Services</a> <i class="icon-menu"></i> <i class="icon-search"></i>
+				</nav>
+				<div class="media_menu">
+				  <nav class="menu">
+				  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+				  <label class="menu-open-button" for="menu-open">
+				    <span class="hamburger hamburger-1"></span>
+				    <span class="hamburger hamburger-2"></span>
+				    <span class="hamburger hamburger-3"></span>
+				  </label>
+				  
+				  <a href="#" class="menu-item"> <i class="fa fa-home"></i> </a>
+				  <a href="#" class="menu-item"> <i class="fa fa-user""></i> </a>
+				  <a href="#" class="menu-item"> <i class="fa fa-space-shuttle"></i> </a>
+				  <a href="#" class="menu-item"> <i class="fa fa-picture-o"></i> </a>
+				</nav>
+
+				<!-- filters -->
+				<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+				<defs>
+				  <filter id="shadowed-goo">
+				      
+				      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+				      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+				      <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+				      <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+				      <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+				      <feComposite in2="shadow" in="goo" result="goo" />
+				      <feComposite in2="goo" in="SourceGraphic" result="mix" />
+				  </filter>
+				  <filter id="goo">
+				      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+				      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+				      <feComposite in2="goo" in="SourceGraphic" result="mix" />
+				  </filter>
+				</defs>
+				</svg>
+				<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="about">
+				<img src="img/avtor.png" alt="" class="avtor">
+				<h2 class="title">Beautiful photography refueled</h2>
+			</section>
+		</main>
+		<div class="about_title">
+			<p class="text">
+				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 	corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa 	qui officia deserunt mollitia animi, id
+			</p>
+			<p class="Mike">MikeTaylor</p>
+			<p class="bottom-text">Photography</p>
+		</div>
+		<div class="social-icons">
+			<li class="icons">
+				<p class="icons_correct">
+					<img src="pic/icon-f.png" alt="" class="facebook"></p>
+			</li>
+			<li class="icons">
+				<p class="icons_correct">
+					<img src="pic/icon-t.png" alt="" class="twitter"></p>
+			</li>
+			<li class="icons">
+				<p class="icons_correct">
+					<img src="pic/google-plus.png" alt="" class="google"></p>
+			</li>
+			<li class="icons">
+				<p class="icons_correct">
+					<img src="pic/ball.png" alt="" class="ball"></p>
+			</li>
+			<li class="icons">
+				<p class="icons_correct">
+					<img src="pic/p.png" alt="" class="p"></p>
+			</li>
+			<li class="icons">
+				<p class="icons_correct">
+					<img src="pic/icon.png" alt="" class="git"></p>
+			</li>
+		</div>
+		<div class="portfolio">
+			<ul>
+				<li class="gallery">
+					<img src="img/g1.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g2.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g3.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g4.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g5.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g6.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g7.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g8.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g9.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g10.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g11.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g12.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g13.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g14.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g15.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+				<li class="gallery">
+					<img src="img/g16.jpg" alt="">
+					<div class="gallery-item-content">
+						<div class="gallery-item-text">
+							<h4>Life style</h4>
+							<p class="port">PORTLAND OREGON</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="btn_inside">
+			<button class="after_gallery">View All Work</button>
+		</div>
+		<div class="main_part clearfix">
+			<div class="info_main_part_f">
+			<img src="pic/layer-2.jpg" alt="" class="flower" >
+				<h2 class="title_main_part">Best Photohrapher For Weeding Events</h2>
+				<p class="information">
+					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in
+				</p>
+				<p class="information">
+					Culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Eimpedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+					<br>Temporibus autem</p>
+			</div>
+		</div>
+		<div class="btn_inside">
+			<button class="main-part">Read More</button>
+		</div>
+		<h2 class="tit">Our philosophy</h2>
+		<div class="main_part clearfix">
+			<img src="pic/layer-3.jpg" alt="" class="man">
+			<div class="info_main_part clearfix">
+				<h2 class="title_tit">Best solution  for any event</h2>
+				<p class="information_main_part">
+					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
+				</p>
+				<p class="information_main_part">
+					Expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
+				</p>
+
+				<p class="information_main_part">
+					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
+				</p>
+				<button class="main-part">Read More</button>
+			</div>
+		</div>
+		<div class="paralax">
+			<img src="pic/people.png" alt="" class="people">
+			<p class="text_paralax">Trending ideas and inventions always make us feel proud</p>
+			<button class="icons_paralax">
+					<i class="shape"></i>
+			</button>
+		</div>
+		<h2 class="tit">What client say?</h2>
+		<section class="line">
+			<img src="pic/3-layers.png" alt="" class="layer"></section>
+		<section class="about_client">
+			<img src="img/client.png" alt="" class="client"></section>
+		<div class="about_client-text">
+			<p class="text_client">
+				“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et.”
+			</p>
+			<p class="initials">Angela Taylor</p>
+			<p class="initials_">CEO/Founder Webworldpk</p>
+		</div>
+		<div class="buttons">
+			<button class="prev_btn">
+				<p class="correct_btn">
+					<img src="pic/prev.png" alt="" class="prev"></p>
+			</button>
+			<button class="next_btn">
+				<p class="correct_btn">
+					<img src="pic/next.png" alt="" class="next"></p>
+			</button>
+		</div>
+		<h2 class="tit">Instagram</h2>
+		<section class="line">
+			<img src="pic/3-layers.png" alt="" class="layer"></section>
+		<div class="insta">
+			<img src="img/g17.png" alt="" class="instagram">
+			<img src="img/g18.png" alt="" class="instagram">
+			<img src="img/g19.png" alt="" class="instagram">
+			<img src="img/g20.png" alt="" class="instagram">
+			<img src="img/g21.png" alt="" class="instagram"></div>
+			<footer class="footer">
+				<div class="cont_foot">
+					<p class="logo_footer">Mikes</p>
+					<p class="logo_footer-item">Photography</p>
+					<div class="footer-text_item">
+						<p class="text_footer">
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
+						</p>
+				</div>
+				<div class="social-icons_footer clearfix">
+				<li class="icons">
+					<p class="icons_correct">
+						<img src="pic/icon-f.png" alt="" class="facebook"></p>
+				</li>
+				<li class="icons">
+					<p class="icons_correct">
+						<img src="pic/icon-t.png" alt="" class="twitter"></p>
+				</li>
+				<li class="icons">
+					<p class="icons_correct">
+						<img src="pic/google-plus.png" alt="" class="google"></p>
+				</li>
+				<li class="icons">
+					<p class="icons_correct">
+						<img src="pic/ball.png" alt="" class="ball"></p>
+				</li>
+				<li class="icons">
+					<p class="icons_correct">
+						<img src="pic/p.png" alt="" class="p"></p>
+				</li>
+				<li class="icons">
+					<p class="icons_correct">
+						<img src="pic/icon.png" alt="" class="git"></p>
+				</li>
+			</div>
+			<hr class="end">
+			<p class="happy-end">© 2015 Mike Taylor</p>
+			</div>		
+		</footer>
+	</div>
+</body>
+</html>

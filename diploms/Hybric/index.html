@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hybric</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/text.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></head>
+<body>
+	<div class="wrap">
+		<header class="header">
+			<div class="header-top">
+				<div class="melon_text">
+					<img src="pic/delicious.png" alt="" class="logo">
+					<p class="text_near_the_logo">Hydric</p>
+				</div>
+				<nav class="menu_static clearfix">
+					<a href="" class="menu_item_static">Home</a>
+					<a href="" class="menu_item_static">About</a>
+					<a href="" class="menu_item_static">Features</a>
+					<a href="" class="menu_item_static">Nutrition</a>
+					<a href="" class="menu_item_static">Buy now</a> <i class="icon_menu"></i> <i class="icon_search"></i>
+				</nav>
+				<div class="media_menu">
+				  <nav class="menu">
+				  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+				  <label class="menu-open-button" for="menu-open">
+				    <span class="hamburger hamburger-1"></span>
+				    <span class="hamburger hamburger-2"></span>
+				    <span class="hamburger hamburger-3"></span>
+				  </label>
+				  
+				  <a href="#" class="menu-item"> <i class="fa fa-home"></i> </a>
+				  <a href="#" class="menu-item"> <i class="fa fa-user""></i> </a>
+				  <a href="#" class="menu-item"> <i class="fa fa-globe"></i></a>
+				  <a href="#" class="menu-item"> <i class="fa fa-cutlery"></i></a>
+				  <a href="#" class="menu-item"> <i class="fa fa-shopping-cart"></i></a>
+				</nav>
+
+				<!-- filters -->
+				<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+				<defs>
+				  <filter id="shadowed-goo">
+				      
+				      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+				      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+				      <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+				      <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+				      <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+				      <feComposite in2="shadow" in="goo" result="goo" />
+				      <feComposite in2="goo" in="SourceGraphic" result="mix" />
+				  </filter>
+				  <filter id="goo">
+				      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+				      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+				      <feComposite in2="goo" in="SourceGraphic" result="mix" />
+				  </filter>
+				</defs>
+				</svg>
+				<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+				</div>
+			</div>
+			<figure class="slide">
+				<section class="title">
+					<h1 class="title_melon">Sweet and delicious</h1>
+					<img src="pic/vector-smart-object.png" alt="" class="melon"></section>
+			</figure>
+		</header>
+		<div class="section_1">
+			<div class="content_1">
+				<h2 class="title_1">More flavor and juiciness</h2>
+				<p class="sub_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="sub_1">Lorem ipsum dolor sit amet.</p>
+				<img src="pic/vector-smart.png" alt="" class="half_melon"></div>
+			</div>
+		<div class="section_2">
+			<div class="content_2">
+				<h2 class="title_2">Pure health</h2>
+				<p class="sub_2">Lorem ipsum dolor sit amet.</p>
+				<img src="pic/15-layers.png" alt="" class="layers_15">
+			</div>
+		</div>
+		<div class="section_3">
+			<div class="content_3">
+					<h2 class="title_3">Meet our plans</h2>
+					<p class="sub_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="sub_1">Lorem ipsum dolor sit amet.</p>
+					<div class="price clearfix">
+						<div class="copy_1">
+							<p class="hybric">Hybric</p>
+							<p class="lite">Lite</p>
+							<p class="starting">Starting at</p>
+							<p class="sale">$ 6.90</p>
+							<button class="details">View details</button>
+							
+						</div>
+						<div class="copy_1">
+							<p class="hybric">Hybric</p>
+							<p class="lite">Pro</p>
+							<p class="starting">Starting at</p>
+							<p class="sale">$ 22.90</p>
+							<button class="details">View details</button>
+							
+						</div>
+						<div class="copy_1">
+							<p class="hybric">Hybric</p>
+							<p class="lite">Star</p>
+							<p class="starting">Starting at</p>
+							<p class="sale">$ 42.90</p>
+							<button class="details">View details</button>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<nav class="menu_footer clearfix">
+				<a href="" class="menu_item_footer">Home</a>
+				<a href="" class="menu_item_footer">About</a>
+				<a href="" class="menu_item_footer">Features</a>
+				<a href="" class="menu_item_footer">Nutrition</a>
+				<a href="" class="menu_item_footer">Contact Us</a> <i class="icon_menu"></i> 
+				<i class="icon_search"></i>
+			</nav>
+			<button class="play"><img src="pic/shape-2.png" alt="" class="shape"></button>
+			<p class="hybric2015">© 2015 Hydric. All rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>

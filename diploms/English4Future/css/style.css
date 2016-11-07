@@ -1,0 +1,292 @@
+a{
+	outline: none;
+    cursor: pointer;
+    text-decoration: none;
+   	color: rgb(127, 127, 127);
+}
+a:focus{
+	outline: none;
+	text-decoration: none;
+	color: rgb(0, 100, 170);
+}
+#preloader{
+	background: #FFF;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+#status {
+    background-image: url("../img/preloader.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+}
+.clearfix{
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}
+.header{
+	min-height: 692px;
+    background-color: rgb(0, 100, 170);
+}
+.container{
+	display: flex;
+	transform: translate(0, 80px);
+}
+.logo img{
+	position: relative;
+	top: 15px;
+	left: 150px;
+	width: 100px;
+}
+.title1 img{
+	min-width: 600px;
+}
+.title2{
+	text-align: center;
+}
+.title2 img{
+	width: 200px;
+}
+.title_start{
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.952941);
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.4;
+    text-shadow: rgba(0, 37, 68, 0.639216) 0px 0px 2px;
+}
+.start{
+	position: absolute;
+    width: 600px;
+    top: 180px;
+    left: 450px;
+    z-index: -1;
+    background-color: rgb(0, 50, 93);
+    color: rgb(251, 192, 0);
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    padding: 30px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.title2 .start:last-child{
+	width: 700px;
+	top: 300px;
+	left: 400px;
+}
+.title2 span{
+    color: rgb(252, 42, 32);
+}
+
+.form{
+	min-height: 380px;
+    background-color: rgb(251, 192, 0);
+}
+.form p{
+	color: rgb(35, 35, 35);
+    font-family: Tahoma, sans-serif;
+    font-size: 31px;
+    line-height: 1.4;
+}
+.form img{
+	position: relative;
+	top: 120px;
+    max-width: 136px;
+    height: 133px;
+}
+.name{
+	color: rgba(86, 86, 86, 0.882353);
+    font-size: 24px;
+    padding: 16px 70px;
+    font-family: Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    background-color: #fff;
+    margin: 15px;
+}
+.btn_form{
+    border-radius: 7px;
+    font-family: Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding: 15px 25px;
+    background-color: rgb(252, 42, 32);
+    color: #ccc;
+    transform: translate(20px, 15px);
+}
+
+.get_stake{
+	min-height: 659px;
+	background-color: rgb(0, 100, 170);
+	text-align: center;
+}
+.get_stake h2{
+	padding-top: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.container_for_tasks{
+	max-width: 1368px;
+	margin: 0 auto;
+}
+.tasks_item{
+	padding: 55px;
+}
+
+.tasks_item p{
+	text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Tahoma, sans-serif;
+    font-size: 21px;
+}
+.right{
+	position: absolute;
+	width: 70px;
+	top: 140px;
+	left: 310px;
+}
+.tasks_item:nth-of-type(2) .right{
+	left: 670px;
+}
+.tasks_item:nth-of-type(3) .right{
+	left: -30px;
+}
+.btn_for_tasks{
+	padding: 20px 100px;
+	color: #fff;
+    background-color: rgb(246, 50, 41);
+    border-radius: 8px;
+    font-size: 26px;
+    font-family: Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.skill{
+	height: 650px;
+    background-color: rgb(251, 192, 0);
+	text-align: center;
+}
+.skill h2{
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 48px;
+    color: rgb(53, 53, 53);
+    padding-top: 50px;
+}
+.skill_text{
+	text-align: left;
+}
+.skill_text p{
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 35px;
+}
+
+.teacher{
+	min-height: 755px;
+	background-color: rgb(0, 100, 170);
+	text-align: center;
+}
+.teacher_img{
+	padding-top: 2px;
+}
+.teacher h2{
+	padding-top: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.teacher_text{
+	text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: Tahoma, sans-serif;
+    font-size: 24px;
+}
+.teacher_text  p, 
+.teacher_text h3{
+	margin-bottom: 50px;
+}
+
+.footer{
+	text-align: center;
+	height: 147px;
+}
+.btn_footer{
+	padding: 20px 100px;
+	color: #fff;
+    background-color: rgb(246, 50, 41);
+    border-radius: 8px;
+    font-size: 26px;
+    font-family: Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.contacts{
+	padding: 30px 50px;
+	text-align: center;
+	display: flex;
+}
+.contacts span,
+.contacts p{
+	transform: translate(0, 25px);
+	padding: 0 15px;
+}
+.contacts img{
+	width: 20%;
+}
+.checkbox-btn{
+	
+}
+.open{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease-out;
+}
+.open_form{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 445px;
+	color: #FFF;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.4);
+	transform: translate(0, -50%) scale(0);
+	transition: all 0.8s ease-out;
+}
+.checkbox-btn:checked + .open{
+	opacity: 1;
+	visibility: visible;
+}
+.checkbox-btn:checked + .open .open_form{
+	transform: translate(0, -50%)scale(1);
+}
+.be{
+	margin-left: 23.5px;
+}
+

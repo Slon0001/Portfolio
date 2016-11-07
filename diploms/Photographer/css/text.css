@@ -1,0 +1,148 @@
+.title{
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #303030;
+}
+.text{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #515151;
+}.Mike{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 3.750em;
+    font-weight: normal;
+    line-height: 1.500em;
+    margin: 0 auto;
+    padding: 2.5% 0 0.5% 0;
+    color: #303030;
+}
+.bottom-text{
+    font-family: Playfair SDisplay;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 24px;
+    margin: 0 auto;
+    color: #303030;
+}
+.title_main_part{
+    font-family: Playfair Display;
+    font-size: 1.875em  ;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 24px;
+    margin: 2%;
+    color: #303030;
+}
+.information{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 24px;
+    width: 75%;
+    margin-bottom: 1%;
+
+    color: #515151;
+}
+.tit{
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 24px;
+    margin: 3%;
+    text-align: center;
+    color: #303030;
+}
+.title_tit{
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 24px;
+    color: #303030;
+}
+.information_main_part{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 24px;
+    color: #515151;
+    padding-bottom: 1%;
+}
+.text_paralax{
+    font-family: Playfair Display;
+    font-size: 2.250em;
+    font-style: italic;
+    position: absolute;
+    top: 35%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+}
+.text_client{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 24px;
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #515151;
+}
+.initials{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 1% auto;
+
+    color: #e1571a;
+}
+.initials_{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 24px;
+    color: #303030;
+}
+.logo_footer{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 3.750em;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+    color: white;
+}
+.logo_footer-item{
+    font-family: Dancing Script;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 48%;
+    color: white;
+}
+.text_footer{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 24px;
+    color: #515151;
+}
+.happy-end{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4c4c4c;
+}
