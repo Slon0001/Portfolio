@@ -30,7 +30,7 @@
 
 				if(newRadius > this.maxRadius){
 					newRadius = this.maxRadius,
-					$('#increase-radius').addClass('disabled')
+					$('#increase-radius').addClass('disabled');
 				}
 
 				if(newRadius > this.minRadius){
@@ -53,7 +53,7 @@
 
 				if(newRadius <this. minRadius){
 					newRadius = this.maxRadius,
-					$('#reduce-radius').addClass('disabled')
+					$('#reduce-radius').addClass('disabled');
 				}
 
 				if(newRadius < this.maxRadius){
