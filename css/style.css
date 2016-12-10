@@ -219,10 +219,6 @@ input[type=number] {
     display: block;
 }
 
-.portfolio {
-    
-}
-
 .list {
     font-size: 0;
 }
@@ -256,10 +252,10 @@ input[type=number] {
             transition: all 0.5s ease;
 }
 
-
 .list__item .block-link:hover::after {
     opacity: 1;
 }
+
 .particles{
     position: fixed;
     top: 0;
@@ -268,8 +264,7 @@ input[type=number] {
     left: 0;
     z-index: -1;
 }
-
-
+/* Adaptive */
 @media screen and (max-width: 768px) {
     .list__item {
         width: 96%;
@@ -294,6 +289,7 @@ input[type=number] {
        font-size: 2.8em;
     }
 }
+
 @media screen and (max-width: 320px) {
     .hp-text {
         font-size: 2.5em;
