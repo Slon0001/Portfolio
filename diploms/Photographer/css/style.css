@@ -11,7 +11,7 @@ body{
     background: url('../pic/bg_header.png') no-repeat;
     height: 750px;
     background-size: cover;
-    background-position: center;
+    background-position: center
 }
 .header-top{
     position: absolute;
@@ -80,7 +80,6 @@ body{
     line-height: 2.5;
     text-align: center;
 }
-
 .portfolio{
     width: 75%;
     margin: 5% auto;
@@ -89,7 +88,7 @@ body{
     position: relative;
     display: inline-block;
     width: 23%;
-    margin: .5%;
+    margin: 0.5%;
 }
 .gallery-item-content{
     font-family: Playfair Display;
@@ -112,7 +111,7 @@ body{
 }
 .gallery:hover .gallery-item-content{
     visibility: visible;
-    opacity: .5;
+    opacity: 0.5;
 }
 .life{
     font-family: Playfair Display;
@@ -120,7 +119,6 @@ body{
     font-style: italic;
     color: white;
 }
-
 .port{
     font-family: Raleway;
     font-size: 0.500em;
@@ -157,7 +155,6 @@ body{
     background-color: #303030;
     padding:0 35px ;
 }
-
 .main-part{
     font-family: Raleway;
     padding: 0 45px ;
