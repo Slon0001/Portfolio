@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Akonto Kiraberos</title>
+
+ 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+	<!-- CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/reset.css">
+    
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<link href="assets/css/map.css" rel="stylesheet" media="screen">
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxZUM2cKgrOWytUKyCfBs0zg6wE8FU0Fk&callback=initMap"></script>
+    <script src="assets/js/snazzy-info-window.min.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script id="marker-content-template" type="text/x-handlebars-template">
+        <div class="custom-img" style="background-image: url({{{bgImg}}})"></div>
+	        <section class="custom-content">
+	            <h1 class="custom-header">
+	                {{title}}
+	                <small>{{subtitle}}</small>
+	            </h1>
+	            <div class="custom-body">{{{body}}}</div>
+        	</section>
+    </script>
+       
+</head>
+<body>
+
+
+	<!-- Preloader -->
+
+	<!-- <div id="preloader"></div> -->
+
+	<!-- Home start -->
+
+
+	<section id="home" class="pfblock-image screen-height">
+        <div class="container">
+			<div class="nav_contact">
+				<div class="row">
+
+					<div class="col-lg-4 col-md-4 logo_block">
+						<a href="#" class="logotype">
+							<img src="assets/images/logo.png" alt="" class="logo">
+							<p class="logo_text">автомобили из Европы</p>
+						</a>
+					</div>
+					
+					<nav class="navbar navbar-inverse">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="custom-collapse">
+							<address class="nav navbar-nav navbar-right contact_inf col-lg-8 col-md-8 col-sm-12 col-xs-12">
+								<ul class="address_one">
+									<p class="title_in">Контакты в Польше:</p>
+									<li>
+										<i class="fa" aria-hidden="true">
+											<img src="assets/images/phone-copy.png" class="phone" alt="">
+											<span class="numb">&nbsp+48 792 063 263</span>
+										</i>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true">
+										<span class="mail">&nbspakonto2@gmail.com</span></i>
+									</li>
+									<li>
+										<span class="fa adr_in_Pol">Piekna 7, Biała Podlaska, Lubelskie (Polska)</span>
+									</li>
+								</ul>
+
+								<ul class="address_two">
+									<p class="title_in">Контакты в Украине:</p>
+									<li>
+										<nobr>
+											<i class="fa" aria-hidden="true">
+												<img src="assets/images/phone-copy.png" class="phone" alt="">
+												<span class="numb">&nbsp+38 095 776 98 86 ; <span class="adapt_block">+38 067 909 18 76	</span></span>
+											</i>
+										</nobr>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true">
+										<span class="mail">&nbspluvar7811@gmail.com</span></i>
+									</li>
+								</ul>
+								<ul class="lang_menu">
+									<li class="lang">RU ↓
+										<ul class="lang_menu_sub">
+											<li class="sub_item">
+												<a href="index_ua.html">UA</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</address>
+						</div>
+					</nav>
+				</div><!-- Row end -->
+			</div>
+		</div><!-- Container end -->
+	</section>
+
+	<!-- Home end -->
+
+    <!-- Preview start -->
+	<section id="preview" class="preview">
+		<div class="container cont_prev clearfix">
+			<div class="row">	
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="shadow">
+						<div class="right_pict">
+							<img src="assets/images/red_car.png" class=" red_car" alt="">
+						</div>
+						<div class="left_text">
+							<h1 class="preview">
+								Продажа подержанных автомобилей со всей Европы
+							</h1>
+							<p class="prev_text">
+								Наша Компания — эксклюзивный поставщик автомобилей б/у 
+								из Евросоюза. Мы представляем широкий автомобильный ряд из крупнейших площадок продаж.<br>
+
+								<br>Специально для покупателей из Украины автомобили соответствуют требованиям Закона Украины "О стимулировании развития рынка используемых транспортных средств" от 2016 г. :<br>
+								— году выпуска c 2010;<br>
+								— экологическим нормам — Euro 5;<br>
+								— стране происхождения — EU.<br>
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div><!-- Row end -->
+		</div><!-- Container end -->
+	</section>
+
+	<!-- Preview end -->
+
+	<!-- Our skills start -->
+
+	<section id="services" class="pfblock-services">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<div class="pfblock-header pf-item wow fadeInUp">
+						<h2 class="pfblock-title title_serv">Почему покупатели выбирают наc ?</h2>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+					<div class="iconbox why_us wow slideInLeft">
+						<div class="iconbox-icon why_us_item">
+							<img src="assets/images/2-layers.png" alt="">
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Расчет</h3>
+							<div class="iconbox-desc">
+								Экономия денежных<br>
+								средств при покупке<br>
+								автомобиля до 30%
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+					<div class="iconbox why_us wow fadeIn">
+						<div class="iconbox-icon why_us_item">
+							<img src="assets/images/speed.png" alt="">
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Скорость</h3>
+							<div class="iconbox-desc">
+								Мгновенное оформление<br>
+								документов для выезда<br>
+								на имя владельца автомобиля
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+					<div class="iconbox why_us wow slideInRight">
+						<div class="iconbox-icon why_us_item">
+							<img src="assets/images/quality.png" alt="">
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Качество</h3>
+							<div class="iconbox-desc">
+								Проверены на предмет<br>
+								страховых случаев,<br>
+								не участвовали в ДТП,<br>
+								не числятся в угоне
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+					<div class="iconbox why_us wow slideInLeft">
+						<div class="iconbox-icon why_us_item">
+							<img src="assets/images/accuracy.png" alt="">
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Точность</h3>
+							<div class="iconbox-desc">
+								Подготовка документов<br>
+								для таможенного<br>
+								оформления с указанием<br>
+								реального пробега
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+					<div class="iconbox why_us wow fadeIn">
+						<div class="iconbox-icon why_us_item">
+							<img src="assets/images/navigation.png" alt="">
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Расположение</h3>
+							<div class="iconbox-desc">
+								Нахождение салона вблизи<br>
+								государственной границы.<br>
+								На ввоз в Украину<br>
+								не наложено эмбарго
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+					<div class="iconbox why_us wow slideInRight">
+						<div class="iconbox-icon why_us_item">
+							<img src="assets/images/escort.png" alt="">
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Сопровождение</h3>
+							<div class="iconbox-desc">
+								Возможность<br>
+								дополнительного<br>
+								сопровождения поездки<br>
+								представителем компании
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Our skills end -->
+    
+	<!-- Cars start -->
+
+	<section id="catalog" class="pfblock-car">
+		<div class="row">
+
+			<div class="col-sm-6 col-sm-offset-3">
+
+				<div class="pfblock-header pf-catalog wow fadeInUp">
+					<h2 class="pfblock-title">Наши автомобили</h2>
+				</div>
+
+			</div>
+
+		</div><!-- .row -->
+			
+		<div class="wrap-catalog">
+			<div class="container">           
+	            <div class="row catalog_row">
+	                
+	                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+	                    <img src="assets/images/Renault Espaceult.jpg" alt="">
+	                    	<div class="row fix">
+                				<h2 class="pfblock-title pfblock-title-catalog">Renault Espace</h2>	
+	                    			<ul class="charact">
+		                    			<li>2015</li>
+		                    			<li>50 тыс.км.</li>
+		                    			<li>1.6 л.</li>
+		                    			<li>9000 у.е.</li>
+		                    			<li><a href="cars_1.html">Подробнее</a></li>
+	                    			</ul>
+	                    	</div>		                    
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+	                    <img src="assets/images/Nissan Qashqai 2.jpg" alt="">
+		                    	<div class="fix">
+                    				<h2 class="pfblock-title pfblock-title-catalog">Nissan Qashqai 2
+                    				</h2>	
+			                    		<ul class="charact">
+			                    			<li>2013</li>
+			                    			<li>80 тыс.км.</li>
+			                    			<li>1.8 л.</li>
+			                    			<li>10000 у.е.</li>
+			                    			<li><a href="cars_2.html">Подробнее</a></li>
+			                    		</ul>
+		                    	</div>		                    
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+	                    <img src="assets/images/Mercedes-Benz C 220 CDI.jpg" alt="">
+		                    	<div class="fix">
+                    				<h2 class="pfblock-title pfblock-title-catalog">Mercedes-Benz C 220 CDI</h2>	
+			                    		<ul class="charact">
+			                    			<li>2010</li>
+			                    			<li>100 тыс.км.</li>
+			                    			<li>1.4 л.</li>
+			                    			<li>8000 у.е.</li>
+			                    			<li><a href="cars_3.html">Подробнее</a></li>
+			                    		</ul>
+		                    	</div>		                    
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+                    	<img src="assets/images/Volkswagen Sharan.jpg" alt="">
+	                    	<div class="fix">
+                				<h2 class="pfblock-title pfblock-title-catalog">Volkswagen Sharan
+                				</h2>	
+		                    		<ul class="charact">
+		                    			<li>2011</li>
+		                    			<li>120 тыс.км.</li>
+		                    			<li>1.4 л.</li>
+		                    			<li>9000 у.е.</li>
+		                    			<li><a href="cars_4.html">Подробнее</a></li>
+		                    		</ul>
+	                    	</div>	                    
+                	</div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+                    	<img src="assets/images/Opel Astra.jpg" alt="">
+	                    	<div class="fix">
+                				<h2 class="pfblock-title pfblock-title-catalog">Opel Astra</h2>	
+		                    		<ul class="charact">
+		                    			<li>2011</li>
+		                    			<li>150 тыс.км.</li>
+		                    			<li>1.4 л.</li>
+		                    			<li>8000 у.е.</li>
+		                    			<li><a href="cars_5.html">Подробнее</a></li>
+		                    		</ul>
+	                    	</div>	                    
+                	</div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+                    	<img src="assets/images/Renault Megane Privilège 1.5dCi,81kW.jpg" alt="">
+	                    	<div class="fix">
+                				<h2 class="pfblock-title pfblock-title-catalog">Renault Megane Privilège 1.5dCi,81kW</h2>	
+		                    		<ul class="charact">
+		                    			<li>2016</li>
+		                    			<li>40 тыс.км.</li>
+		                    			<li>1.4 л.</li>
+		                    			<li>15000 у.е.</li>
+		                    			<li><a href="cars_6.html">Подробнее</a></li>
+		                    		</ul>
+	                    	</div>	                    
+                	</div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+                    	<img src="assets/images/Renault Megane.jpg" alt="">
+	                    	<div class="fix">
+                				<h2 class="pfblock-title pfblock-title-catalog">Renault Megane</h2>	
+		                    		<ul class="charact">
+		                    			<li>2013</li>
+		                    			<li>160 тыс.км.</li>
+		                    			<li>1.4 л.</li>
+		                    			<li>10000 у.е.</li>
+		                    			<li><a href="cars_7.html">Подробнее</a></li>
+		                    		</ul>
+	                    	</div>	                    
+                	</div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+           		 		<img src="assets/images/Renault Megane_1.jpg" alt="">
+	                    	<div class="fix">
+                				<h2 class="pfblock-title pfblock-title-catalog">Renault Megane</h2>	
+		                    		<ul class="charact">
+		                    			<li>2014</li>
+		                    			<li>180 тыс.км.</li>
+		                    			<li>1.5 л.</li>
+		                    			<li>9000 у.е.</li>
+		                    			<li><a href="cars_8.html">Подробнее</a></li>
+		                    		</ul>
+	                    	</div>	                    
+                	</div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+                    	<img src="assets/images/Renault Megane_2.jpg" alt="">
+	                    	<div class="fix">
+                				<h2 class="pfblock-title pfblock-title-catalog">Renault Megane</h2>	
+		                    		<ul class="charact">
+		                    			<li>2012</li>
+		                    			<li>150 тыс.км.</li>
+		                    			<li>1.4 л.</li>
+		                    			<li>8000 у.е.</li>
+		                    			<li><a href="cars_9.html">Подробнее</a></li>
+		                    		</ul>
+	                    	</div>	                    
+                	</div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 car">
+                    	<img src="assets/images/Renault Espaceult.jpg" alt="">
+	                    	<div class="fix">
+                				<h2 class="pfblock-title pfblock-title-catalog">Renault Megane</h2>	
+		                    		<ul class="charact">
+		                    			<li>2014</li>
+		                    			<li>80 тыс.км.</li>
+		                    			<li>1.5 л.</li>
+		                    			<li>7500 у.е.</li>
+		                    			<li><a href="cars_10.html">Подробнее</a></li>
+		                    		</ul>
+	                    	</div>
+                	</div>      
+	            </div>
+	        </div><!-- .contaier -->
+		</div><!-- .wrap-car -->
+
+	</section>
+
+	<!-- Cars end -->
+    
+    <!-- Map start -->
+    
+     <section class="pfblock-gray">
+    	<div class="container-fluid">
+	    	<div class="row">
+	    		<div class="col-md-12 map_sect">	
+					<div id="map" class="map-canvas"></div>
+	    		</div>
+	    	</div>
+	    </div>
+    </section>
+    
+    <!-- Map end -->
+
+	<!-- Footer start -->
+
+	<footer id="footer">
+		<div class="container cont_foot">
+			<div class="row row_foot">
+
+				<div class="col-md-3">
+						<a href="#" class="logotype">
+							<img src="assets/images/logo.png" alt="" class="logo-footer">
+						</a>		
+
+				</div>
+                    <p class="copyright">
+                        © 2017 All rights reserved
+					</p>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+
+	<!-- Footer end -->
+
+	<!-- Scroll to top -->
+
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+    
+    <!-- Scroll to top end-->
+
+	<!-- Javascript files -->
+
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+</body>
+</html>
